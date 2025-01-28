@@ -28,6 +28,7 @@ module.exports = function (api) {
         },
       ],
       'react-native-reanimated/plugin',
+      ['inline-import', { extensions: ['.sql'] }], // Add this plugin for inline SQL migration support
     ],
   };
 };

@@ -5,6 +5,8 @@ import type { LoginFormProps } from '@/components/login-form';
 import { LoginForm } from '@/components/login-form';
 import { FocusAwareStatusBar } from '@/components/ui';
 import { useAuth } from '@/lib';
+import { View, Text, Button } from 'react-native-ui-lib';
+
 
 export default function Login() {
   const router = useRouter();
@@ -17,8 +19,12 @@ export default function Login() {
   };
   return (
     <>
-      <FocusAwareStatusBar />
-      <LoginForm onSubmit={onSubmit} />
+      <View flex center>
+        <Text text50 color="blue">Hello, UI Lib!</Text>
+        <Button label="Click Me" onPress={() => alert('Button Pressed!')} />
+      </View>
+      {/* <FocusAwareStatusBar />
+      <LoginForm onSubmit={onSubmit} /> */}
     </>
   );
 }
