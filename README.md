@@ -47,3 +47,9 @@ pnpm android
 - [Forms](https://starter.obytes.com/ui-and-theme/Forms)
 - [Data fetching](https://starter.obytes.com/guides/data-fetching)
 - [Contribute to starter](https://starter.obytes.com/how-to-contribute/)
+
+
+
+### Error Solved
+  - mismatch between javascript code version reanimated babel puligin version 3.16.7 vs 3.16.1
+  [solved by](https://chatgpt.com/share/679a127c-bd14-8012-9fd8-6caf7fdfaac1)
