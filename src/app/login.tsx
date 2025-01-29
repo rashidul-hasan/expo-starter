@@ -6,8 +6,7 @@ import { LoginForm } from '@/components/login-form';
 import { FocusAwareStatusBar } from '@/components/ui';
 import { useAuth } from '@/lib';
 
-
-export default function Login() {
+export default async function Login() {
   const router = useRouter();
   const signIn = useAuth.use.signIn();
 

@@ -48,6 +48,9 @@ pnpm android
 - [Data fetching](https://starter.obytes.com/guides/data-fetching)
 - [Contribute to starter](https://starter.obytes.com/how-to-contribute/)
 
+
+### [Drizzle use following this](https://chatgpt.com/share/679a1526-cc10-8012-a183-49cd99115149)
+
 ### Error Solved
 
 - mismatch between javascript code version reanimated babel puligin version 3.16.7 vs 3.16.1
