@@ -1,21 +1,57 @@
-# Expo starter
+<h1 align="center">
+  <img alt="logo" src="./assets/icon.png" width="124px" style="border-radius:10px"/><br/>
+Mobile App </h1>
 
-Install 'Expo Go' app on android
+> This Project is based on [Obytes starter](https://starter.obytes.com)
 
-1. `npm install`
-1. `npm i -g @expo/ngrok`
-1. `npx expo start --tunnel` to run the project. In windows, run this project on windows terminal, not on git bash. There will be a QR code shown on terminal. Scan the QR code with Expo Go app
-2. Android phone & PC need to connected to same Wifi
-3. If you face issue like "Network connection timeout" follow this fix: https://stackoverflow.com/a/44600431
-4. 
+## Requirements
+
+- [React Native dev environment ](https://reactnative.dev/docs/environment-setup)
+- [Node.js LTS release](https://nodejs.org/en/)
+- [Git](https://git-scm.com/)
+- [Watchman](https://facebook.github.io/watchman/docs/install#buildinstall), required only for macOS or Linux users
+- [Pnpm](https://pnpm.io/installation)
+- [Cursor](https://www.cursor.com/) or [VS Code Editor](https://code.visualstudio.com/download) ⚠️ Make sure to install all recommended extension from `.vscode/extensions.json`
+
+## 👋 Quick start
+
+Clone the repo to your machine and install deps :
+
+```sh
+git clone https://github.com/user/repo-name
+
+cd ./repo-name
+
+pnpm install
+```
+
+To run the app on ios
+
+```sh
+pnpm ios
+```
+
+To run the app on Android
+
+```sh
+pnpm android
+```
+
+## ✍️ Documentation
+
+- [Rules and Conventions](https://starter.obytes.com/getting-started/rules-and-conventions/)
+- [Project structure](https://starter.obytes.com/getting-started/project-structure)
+- [Environment vars and config](https://starter.obytes.com/getting-started/environment-vars-config)
+- [UI and Theming](https://starter.obytes.com/ui-and-theme/ui-theming)
+- [Components](https://starter.obytes.com/ui-and-theme/components)
+- [Forms](https://starter.obytes.com/ui-and-theme/Forms)
+- [Data fetching](https://starter.obytes.com/guides/data-fetching)
+- [Contribute to starter](https://starter.obytes.com/how-to-contribute/)
 
 
-## Expo router
+### [Drizzle use following this](https://chatgpt.com/share/679a1526-cc10-8012-a183-49cd99115149)
 
-Docs: https://docs.expo.dev/router/navigating-pages/
+### Error Solved
 
-Imperative nav: https://docs.expo.dev/router/navigating-pages/#imperative-navigation
-
-## Expo icons
-
-Docs: https://icons.expo.fyi/Index
+- mismatch between javascript code version reanimated babel puligin version 3.16.7 vs 3.16.1
+  [solved by](https://chatgpt.com/share/679a127c-bd14-8012-9fd8-6caf7fdfaac1)
