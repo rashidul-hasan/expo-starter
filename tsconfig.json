@@ -4,9 +4,15 @@
     "strict": true,
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"],
-      "@env": ["./src/lib/env.js"],
-      "*": ["node_modules/*"]
+      "@/*": [
+        "./src/*"
+      ],
+      "@env": [
+        "./src/lib/env.js"
+      ],
+      "*": [
+        "node_modules/*"
+      ]
     },
     "esModuleInterop": true,
     "checkJs": true
@@ -26,7 +32,7 @@
     "**/*.tsx",
     ".expo/types/**/*.ts",
     "expo-env.d.ts",
-    "nativewind-env.d.ts"
+    "nativewind-env.d.ts", "src/app/index.jsx",
   ],
   "skipLibCheck": true
 }
